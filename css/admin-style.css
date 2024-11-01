@@ -1,0 +1,418 @@
+.woo-chatbot-wrap {
+    margin: 0 0px;
+}
+
+.woo-chatbot-wrap h2 {
+    font-size: 23px !important;
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.qc_get_pro {
+    text-align: right;
+    float: right;
+    padding-bottom: 0px;
+}
+
+.qc_get_pro p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.qc_get_pro h2 a {
+    text-decoration: none;
+    background: #FCB214;
+    color: #fff;
+    padding: 8px 16px;
+    display: table;
+}
+
+.woo-chatbot-wrap input[type="text"].shop-jarvis-button-text {
+    display: block;
+    width: 700px !important;
+}
+
+/*CHECKBOX*/
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*.woo-chatbot-wrap form {
+    width: 400px;
+}*/
+.woo-chatbot-tabs label{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.woo-chatbot-wrap legend {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.woo-chatbot-wrap fieldset {
+    padding: 15px;
+}
+
+.woo-chatbot-wrap input[type=checkbox] {
+    opacity: 0;
+    float: left;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label {
+    margin: 0 0 0 20px;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label ~ label {
+    margin: 0 0 0 40px;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label::before {
+    content: ' ';
+    position: absolute;
+    left: -35px;
+    top: -3px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: white;
+    border: 1px solid #A9A9A9;
+}
+
+.woo-chatbot-wrap input[type=checkbox] + label::after {
+    content: ' ';
+    position: absolute;
+    left: -35px;
+    top: -3px;
+    width: 23px;
+    height: 23px;
+    display: block;
+    z-index: 1;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjE4MS4yIDI3MyAxNyAxNiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAxODEuMiAyNzMgMTcgMTYiPjxwYXRoIGQ9Ik0tMzA2LjMgNTEuMmwtMTEzLTExM2MtOC42LTguNi0yNC04LjYtMzQuMyAwbC01MDYuOSA1MDYuOS0yMTIuNC0yMTIuNGMtOC42LTguNi0yNC04LjYtMzQuMyAwbC0xMTMgMTEzYy04LjYgOC42LTguNiAyNCAwIDM0LjNsMjMxLjIgMjMxLjIgMTEzIDExM2M4LjYgOC42IDI0IDguNiAzNC4zIDBsMTEzLTExMyA1MjQtNTI0YzctMTAuMyA3LTI1LjctMS42LTM2eiIvPjxwYXRoIGZpbGw9IiMzNzM3MzciIGQ9Ik0xOTcuNiAyNzcuMmwtMS42LTEuNmMtLjEtLjEtLjMtLjEtLjUgMGwtNy40IDcuNC0zLjEtMy4xYy0uMS0uMS0uMy0uMS0uNSAwbC0xLjYgMS42Yy0uMS4xLS4xLjMgMCAuNWwzLjMgMy4zIDEuNiAxLjZjLjEuMS4zLjEuNSAwbDEuNi0xLjYgNy42LTcuNmMuMy0uMS4zLS4zLjEtLjV6Ii8+PHBhdGggZD0iTTExODcuMSAxNDMuN2wtNTYuNS01Ni41Yy01LjEtNS4xLTEyLTUuMS0xNy4xIDBsLTI1My41IDI1My41LTEwNi4yLTEwNi4yYy01LjEtNS4xLTEyLTUuMS0xNy4xIDBsLTU2LjUgNTYuNWMtNS4xIDUuMS01LjEgMTIgMCAxNy4xbDExNC43IDExNC43IDU2LjUgNTYuNWM1LjEgNS4xIDEyIDUuMSAxNy4xIDBsNTYuNS01Ni41IDI2Mi0yNjJjNS4yLTMuNCA1LjItMTIgLjEtMTcuMXpNMTYzNC4xIDE2OS40bC0zNy43LTM3LjdjLTMuNC0zLjQtOC42LTMuNC0xMiAwbC0xNjkuNSAxNjkuNS03MC4yLTcxLjljLTMuNC0zLjQtOC42LTMuNC0xMiAwbC0zNy43IDM3LjdjLTMuNCAzLjQtMy40IDguNiAwIDEybDc3LjEgNzcuMSAzNy43IDM3LjdjMy40IDMuNCA4LjYgMy40IDEyIDBsMzcuNy0zNy43IDE3NC43LTE3Ni40YzEuNi0xLjcgMS42LTYuOS0uMS0xMC4zeiIvPjwvc3ZnPg==') no-repeat center center;
+    -ms-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .3s ease;
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+}
+
+.woo-chatbot-wrap input[type=checkbox]:checked + label::after {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+/*ICON CSS*/
+
+.woo-chatbot-wrap ul.radio-list {
+    margin: 0;
+    padding: 0;
+}
+
+.woo-chatbot-wrap ul.radio-list li {
+    width: 15%;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+ul.radio-list li img, ul.radio-list li input {
+    display: inline-table;
+    vertical-align: middle;
+}
+
+ul.radio-list li input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul.radio-list li input[type=radio] {
+    background: #E3E4E4;
+}
+
+ul.radio-list li img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #c7dbec;
+    width: 65px;
+    display: block;
+    margin: 5px auto;
+}
+
+/*container style css after adding tab*/
+.form-container {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-color: #32373c;
+    border: 1px solid #cccccc;
+    border-radius: 5px;	
+}
+
+.qc-opt-description {
+    font-weight: normal;
+}
+
+.qc-opt-title-font {
+    font-weight: normal;
+    font-size: 14px !important;
+    padding-top: 5px;
+}
+
+.qc-opt-dcs-font {
+    font-size: 13px !important;
+}
+
+.input-sm {
+    width: 50px !important;
+}
+
+.thumbnail.theme_prev {
+    max-width: 100%;
+    height: auto;
+
+}
+div#promotion-wpchatbot {
+    margin-left: 0;
+}
+.ge-canvas {
+    padding: 0 15px;
+}
+
+.bargain-bot-wrapper{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px 15px 50px;
+    text-align: center;
+}
+.bargain-bot-wrapper img{
+    width: 150px;
+}
+.qcld_woo_chat_plugin_title{
+    text-align: center;
+    font-weight: normal !important;
+}
+
+.woowbot-notice{
+    margin:5px 0px 5px 0px !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    margin-left: 0 !important;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1300px !important;
+}}
+
+.notice-dismiss {
+    top: -10px !important;
+    right: -10px !important;
+}
+
+.woo-chatbot-tabs nav ul li {
+    border-bottom: 1px solid #4d565f !important;
+}
+div#top-section {
+    padding: 0 0 35px 0;
+}
+.qc_get_pro h2 a {
+    text-decoration: none;
+    background: #39424a;
+    color: #fff;
+    padding: 8px 16px;
+    display: table;
+    border: 1px solid #4a4a4a;
+}
+
+.qc-opt-title-font {
+    margin: 10px 0 10px 0 !important;
+}
+.woo-chatbot-wrap input[type=checkbox] + label {
+    font-size: 15px !important;
+   
+}
+.content-current p{
+    font-size: 15px !important;
+}
+.qc-opt-title-font {
+    font-size: 15px !important;
+    font-weight: 600 !important
+}
+.woo-chatbot-tabs label {
+    font-weight: normal;
+    font-size: 15px !important;
+}
+.h4, h4 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+#section-flip-7 .qc-opt-title-font {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+
+.woo-chatbot-plugins .plugin-card {
+    width: 100%;
+}
+
+.woo-chatbot-plugins .plugin-card .plugin-card-top {
+    position: relative;
+    padding: 20px 20px 10px;
+    min-height: 135px;
+    display: flex;
+    align-items: center;
+}
+
+.woo-chatbot-plugins .plugin-card .plugin-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+    margin: 0 20px 20px 0;
+}
+
+.woo-chatbot-plugins .plugin-card .plugin-card-top .plugin-action-buttons li a {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container {
+    background-color: #2e2e2e;
+  }
+  .wp-chatbot-wrap form {
+    width: 1170px !important;
+  }
+  .container.form-container {
+    position: relative;
+  }
+  .container.form-container:before {
+    content: '';
+    position: absolute;
+    background: url("../../woowbot-woocommerce-chatbot/images/hud-left-dark.png") top left;
+    left: -6px;
+    width: 40px;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    background-repeat: repeat !important;
+  }
+  .container.form-container:after {
+    content: '';
+    position: absolute;
+    background: url("../../woowbot-woocommerce-chatbot/images/hud-righ-dark.png") top right;
+    width: 41px;
+    height: 100%;
+    right: -22px;
+    width: 28px;
+    z-index: 999;
+    top: 0;
+    background-repeat: repeat !important;
+  }
+  
+  
+  .woo-chatbot-wrap {
+    margin: 20px 0 0 0;
+    max-width: 1170px;
+}
+  .woo-chatbot-wrap form{
+    position: relative;
+  }
+  .woo-chatbot-wrap form:before {
+    content: '';
+    position: absolute;
+    background: url("../../woowbot-woocommerce-chatbot/images/hud-top-dark_new.png") top center;
+    width: 100%;
+    height: 34px;
+    z-index: 9999999;
+    top: -7px;
+    background-repeat: no-repeat;
+  }
+
+  path{stroke-dasharray:300;stroke-dashoffset:300;stroke:#c3a477;stroke-width:2px;-webkit-animation:draw ease-out infinite;animation:draw ease-out infinite}
+  #l1{-webkit-animation-duration:3s;animation-duration:3s}
+  #l2{-webkit-animation-duration:5.5s;animation-duration:5.5s}
+  #l3{-webkit-animation-duration:2s;animation-duration:2s}
+  #l4{-webkit-animation-duration:5.5s;animation-duration:5.5s}@-webkit-keyframes draw{50%{stroke-dashoffset:0}100%{stroke-dashoffset:-300}}@keyframes draw{50%{stroke-dashoffset:0}100%{stroke-dashoffset:-300}}
+  .lineanimation{position:absolute;top:-64px;z-index:99999999;left:-10px;right:0;margin:0 auto;width:257px;max-width:257px;height:90px;overflow:hidden;bottom:0}
+  .lineanimation svg{width:250px;height:95px}.lineanimation svg{width:250px;height:150px;overflow:hidden}.lineanimation path{stroke:#5e5e5e}
+
+  .woo-chatbot-wrap {
+    width: 94%;
+}
+.qc-review-text img {
+    max-width: 1170px !important;
+}
+
+@media (min-width: 1200px) {
+    .woo-chatbot-wrap .container {
+        max-width: 1170px !important;
+        width: 100% !important;
+    }
+}
+
+
+.qc-review-text img {
+    max-width: 1170px !important;
+    width: 100%;
+}
+
+div#promotion-wpchatbots {
+    max-width: 1165px;
+    margin-left: 0;
+}
+.container.form-container {
+    width: 100% !important;
+    max-width: 1170px !important;
+}
+
+.woo-chatbot-wrap h2 {
+    padding: 15px 15px 0 15px;
+}
+.woo-chatbot-wrap .form-container {
+    background-color: #222222 !important;
+}
+.form-group {
+    box-shadow: none !important;
+}
+.woo-chatbot-wrap form:before {
+    z-index: 999;
+}
+.content-current p {
+    font-weight: bold;
+}
+.woo-chatbot-wrap .button, .woo-chatbot-wrap .button-secondary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
